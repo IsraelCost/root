@@ -22,10 +22,15 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-        "@mfe/root-config": "//localhost:9000/mfe-root-config.js",
-        "@mfe/app1": "http://localhost:8080/mfe-app1.js",
-        "@mfe/app2": "http://localhost:8082/mfe-app2.js"
+        "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js"
+      }
+    }
+  </script>
+  <% } else { %>
+  <script type="systemjs-importmap">
+    {
+      "imports": {
+        "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js"
       }
     }
   </script>
